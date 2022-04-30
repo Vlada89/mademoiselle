@@ -1,0 +1,28 @@
+
+.eror{
+
+    @media(min-width:768px){
+        padding: 12rem 18rem 15rem;
+    }
+
+    @media(min-width:992px){
+        padding: 14rem 26rem 18rem;
+    }
+    @media(min-width:1200px){
+        padding: rem 15rem 30rem 20rem;
+    }
+    .container{
+        text-align: center;
+    }
+    .btn{
+        text-transform: uppercase;
+        padding: 1rem 3rem;
+    }
+    h2{
+        margin-bottom: 3rem;
+        font-size: 3.5rem;
+        @media(min-width:992px){
+            font-size: 6rem;
+        }
+    }
+}

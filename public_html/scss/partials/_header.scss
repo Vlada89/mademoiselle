@@ -1,0 +1,33 @@
+header{
+    transition: 0.5s linear;
+    .navbar-toggler{
+        outline: none !important;
+        box-shadow: none !important;
+        span{
+            color:$primary;
+        }
+    }
+    .navbar-brand img{
+        height: auto !important;
+       
+    }
+
+    .navbar-nav{
+        background-color: #fff;
+        text-align: center;
+        a{
+            font-weight: 500;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            display: block;
+            border-bottom:1px solid #D0B6B6;
+            text-transform: uppercase;
+            padding: 10px 5px;
+            @media(min-width:992px){
+                padding-inline: 26px !important;
+                border-bottom:none;
+            }
+        }
+    }
+    
+}
